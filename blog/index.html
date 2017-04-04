@@ -278,42 +278,94 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="./brython-2d-drawing.html">協同產品設計實習第1週任務</a></h2>
-                <div class="summary"><p>網際協同設計資料整合, 網際 2D 程式繪圖回顧</p>
+                <h2><a href="./Week 5.html">201703022 Week 5</a></h2>
+                <div class="summary"><h3>Fossil SCM 與 Stunnel 啟動整合</h3>
 
-                    <a class="btn btn-default btn-xs" href="./brython-2d-drawing.html">more ...</a>
+<p>1. 更改 Start.bat 設定</p>
+
+<pre class="brush: python">
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set ...</pre>
+                    <a class="btn btn-default btn-xs" href="./Week 5.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./intro-fossil-scm.html">Fossil SCM 簡介</a></h2>
-                <div class="summary"><p>Fossil SCM 是一套軟體配置管理 (Software Configuration Management) 系統, 其中包含分散式版次控管 (DVC, Distributed Version Control) 、<a href="http://fossil-scm.org/xfer/doc/trunk/www/wikitheory.wiki">Wiki</a> 、<a href="http://fossil-scm.org/xfer/doc/trunk/www/bugtheory.wiki">Bug Tracking</a> 與 <a href="http://fossil-scm.org/xfer/doc/trunk/www/event.wiki">Technote</a> 等功能, 可以用來控制及追蹤軟體開發專案, 並且紀錄專案開發歷程, 在協同產品設計實習課程中, 我們除了使用 git、github 與 bitbucket 之外, 將要在區域網路與系上主幹中, 配置每班兩台的 Fossil SCM 實習主機.</p>
+                <h2><a href="./Week 4.html">201703015 Week 4</a></h2>
+                <div class="summary"><h3>建立各組協同主機</h3>
 
-                    <a class="btn btn-default btn-xs" href="./intro-fossil-scm.html">more ...</a>
+<p>2017springcd_bg1: <a href="https://mde2a2.kmol.info/cdbg1">https://mde2a2.kmol.info/cdbg1</a></p>
+
+<h3>單桿機構</h3>
+
+<iframe src="../data/onebar/onebar.html" width="800" height="480"></iframe>
+                    <a class="btn btn-default btn-xs" href="./Week 4.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./vrep-introduction.html">V-rep 簡介</a></h2>
-                <div class="summary"><p>V-rep (Virtual robot experimentation platform)</p>
+                <h2><a href="./Week 3.html">201703018 Week 3</a></h2>
+                <div class="summary"><h3>HyperWorks 14.0 Student Edition</h3>
 
-                    <a class="btn btn-default btn-xs" href="./vrep-introduction.html">more ...</a>
+<p>Student Edition: <a href="http://www.altairuniversity.com/get-the-free-hyperworks-14-0-student-edition/">Download Now!</a></p>
+
+<h3>近端 Fossil</h3>
+
+<p>1. 更改 Start.bat 設定</p>
+
+<pre class="brush: python">
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home ...</pre>
+                    <a class="btn btn-default btn-xs" href="./Week 3.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./brython-editor.html">網際 Brython 程式執行環境</a></h2>
-                <div class="summary"><p>Brython 程式環境可以用來練習許多 Python3 的簡單語法, 也可以納入 Javascript 程式庫, 利用 Ajax 模式結合網際瀏覽器與伺服器上的資源解決協同產品設計流程上的問題.</p>
+                <h2><a href="./Week 2.html">20170301 Week 2</a></h2>
+                <div class="summary"><h3>分組座位原始碼</h3>
 
-                    <a class="btn btn-default btn-xs" href="./brython-editor.html">more ...</a>
+<pre class="brush: python">
+#import os
+adata = open("w2b_cadlab.txt", encoding="utf-8").read()
+#讀取w2b_cadlab.txt 檔案,讓裡面的內容成為資料, 因為檔案裡有中文, 所以設定encoding 使用utf-8 的編驛碼
+rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
+#print(adata)
+#用print 先檢查資料是否是我們需要的
+alist = adata.splitlines()
+#利用splitlines 的方法把資料隔開, 就可以得到一個特定的數列
+#print(alist[2])
+n = 0
+row = 0
+final_list = []
+w2_list = []
+for stud_num in alist[2 ...</pre>
+                    <a class="btn btn-default btn-xs" href="./Week 2.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./2017spring-cd.html">2017Spring 協同產品設計實習</a></h2>
-                <div class="summary"><p>協同產品設計實習在銜接計算機程式、電腦輔助設計實習課程, 讓學員以分組協同的方式進行產品設計實習.</p>
+                <h2><a href="./Week 1.html">2017-02/22 Week 1</a></h2>
+                <div class="summary"><h3>修改 stunnel.conf 的 IP 設定</h3>
 
-                    <a class="btn btn-default btn-xs" href="./2017spring-cd.html">more ...</a>
+<iframe src="https://player.vimeo.com/video/211511217" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/211511217">20170222_113310</a> from <a href="https://vimeo.com/user26960874">蔡宗霖</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p>心得: 雖然瞭解老師理念..
+                <br>但很久沒碰了，很生疏..</p>
+                    <a class="btn btn-default btn-xs" href="./Week 1.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -328,28 +380,28 @@ init_mathjax();
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./brython-2d-drawing.html">
-                            協同產品設計實習第1週任務
+                        <a href="./Week 5.html">
+                            201703022 Week 5
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./intro-fossil-scm.html">
-                            Fossil SCM 簡介
+                        <a href="./Week 4.html">
+                            201703015 Week 4
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./vrep-introduction.html">
-                            V-rep 簡介
+                        <a href="./Week 3.html">
+                            201703018 Week 3
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./brython-editor.html">
-                            網際 Brython 程式執行環境
+                        <a href="./Week 2.html">
+                            20170301 Week 2
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./2017spring-cd.html">
-                            2017Spring 協同產品設計實習
+                        <a href="./Week 1.html">
+                            2017-02/22 Week 1
                         </a>
                     </li>
                 </ul>
