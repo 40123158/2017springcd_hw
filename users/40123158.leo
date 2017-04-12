@@ -9,16 +9,17 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="yen.20170108171605.1" a="E"><vh>@settings</vh>
+<v t="yen.20170108171605.1"><vh>@settings</vh>
 <v t="yen.20170108171605.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="yen.20170108171605.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="yen.20170108171622.1"><vh>有關 2017springcd</vh></v>
 <v t="yen.20170108171733.1" a="E"><vh>@path ../</vh>
 <v t="yen.20170108171733.2"><vh>@button pelican-blog</vh></v>
+<v t="leo.20170412114728.1"><vh>@auto blog\pages\about\index.html</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
+<v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
@@ -28,11 +29,11 @@
 </v>
 </v>
 <v t="yen.20170120110024.1"><vh>@clean index.html</vh>
-<v t="yen.20170120110024.2" a="E"><vh>html</vh>
+<v t="yen.20170120110024.2"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
-<v t="yen.20170120110024.4" a="E"><vh>body</vh>
-<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
-<v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
+<v t="yen.20170120110024.4"><vh>body</vh>
+<v t="yen.20170120110024.5"><vh>reveal div</vh>
+<v t="yen.20170120110024.6"><vh>slides div</vh>
 <v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
@@ -53,13 +54,13 @@
 </v>
 </v>
 <v t="leo.20170304121220.1"><vh>各式內容引用範例</vh>
-<v t="leo.20170304121220.2" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170304121220.2"><vh>導入數學符號與方程式</vh>
 <v t="leo.20170304121220.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20170304121220.4" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20170304121220.4"><vh>導入縮排程式碼</vh>
 <v t="leo.20170304121220.5"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170304121220.6" a="E"><vh>導入影片</vh>
+<v t="leo.20170304121220.6"><vh>導入影片</vh>
 <v t="leo.20170304121220.7"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -68,21 +69,19 @@
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+<v t="yen.20170108171733.71"><vh>@path content</vh>
 <v t="leo.20170226215021.1"><vh>@edit 20170222.md</vh></v>
 <v t="leo.20170304120513.1"><vh>@edit 20170301.md</vh></v>
 <v t="leo.20170311113011.1"><vh>@edit 20170308.md</vh></v>
 <v t="leo.20170316184218.1"><vh>@edit 20170315.md</vh></v>
 <v t="leo.20170322111300.1"><vh>@edit 20170322.md</vh></v>
-<v t="yen.20170108171733.81"><vh>@path pages</vh>
-<v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
-</v>
+<v t="leo.20170412115712.1"><vh>@edit 20170329.md</vh></v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt</vh></v>
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
-<v t="yen.20170120212350.1" a="E"><vh>programs</vh>
+<v t="yen.20170120212350.1"><vh>programs</vh>
 <v t="yen.20170210153828.1"><vh>v-rep rempte api</vh>
 <v t="yen.20170210202015.1"><vh>Python remote API</vh></v>
 <v t="yen.20170210170248.1"><vh>line tracer</vh></v>
@@ -95,12 +94,12 @@
 <v t="yen.20170120232548.1"><vh>calendar example</vh></v>
 <v t="yen.20170123204227.1"><vh>印出月曆以及各課程上課日期</vh></v>
 <v t="yen.20170207092354.1"><vh>協同程式參考</vh></v>
-<v t="yen.20170124102405.1" a="E"><vh>chat</vh>
+<v t="yen.20170124102405.1"><vh>chat</vh>
 <v t="yen.20170124102433.1"><vh>index.html</vh></v>
 </v>
 </v>
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
-<v t="leo.20170322123133.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170322123133.2"><vh>Recovered Nodes</vh>
 <v t="leo.20170322123133.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20170322123133.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20170322123133.5"><vh>new:封面投影片內容</vh></v>
@@ -523,9 +522,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="yen.20170108171622.1">2017 Spring CD 機械設計工程系協同產品設計實習
 
-倉儲位置: https://github.com/mdecourse/2017springcd
-
-每一協同成員都應該要在 users 目錄下有一個 Leo 檔案
+倉儲位置:https://github.com/40123158/2017springcd_hw.git
 
 </t>
 <t tx="yen.20170108171733.1"></t>
@@ -539,7 +536,6 @@ g.es("admin pelican 近端執行完畢")
 </t>
 <t tx="yen.20170108171733.5"></t>
 <t tx="yen.20170108171733.71"></t>
-<t tx="yen.20170108171733.81"></t>
 <t tx="yen.20170108171733.83">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
 
 </t>

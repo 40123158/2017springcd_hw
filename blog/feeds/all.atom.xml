@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-22T11:00:00+08:00</updated><entry><title>2017-03/22 Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;h3&gt;利用Onshape繪製連趕機構&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T11:00:00+08:00</updated><entry><title>2017-03/30 Week 6</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-30T11:00:00+08:00</published><updated>2017-03-30T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-03-30:./Week 6.html</id><summary type="html">&lt;h3&gt;將Onshape繪製的連趕機構匯入Vrep&lt;/h3&gt;
 
-&lt;p&gt;https://cad.onshape.com/documents/4551637bcc9f5baec90cbd70/w/c1f35154ab9c39e3768419bc/e/5ccbaf9ba52ca9e9d2221fd0&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/212852513"&gt;2017-04-12_10-52-31&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-03/22 Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;h3&gt;利用Onshape繪製連趕機構&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E7%B5%84%E5%90%88%E5%9C%96.jpg?raw=true"&gt;
+&lt;p&gt;Onshape檔案位置&lt;/p&gt;
+&lt;a href="https://cad.onshape.com/documents/4551637bcc9f5baec90cbd70/w/c1f35154ab9c39e3768419bc/e/5ccbaf9ba52ca9e9d2221fd0"&gt;
+https://cad.onshape.com/documents/4551637bcc9f5baec90cbd70/w/c1f35154ab9c39e3768419bc/e/5ccbaf9ba52ca9e9d2221fd0&lt;/p&gt;
 &lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
 
 &lt;p&gt;1. 更改 Start.bat 設定&lt;/p&gt;
