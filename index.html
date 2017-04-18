@@ -44,96 +44,121 @@
 ### 虎科大機械設計工程系
 
 <small>
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40123158](http://chiamingyen.github.io/kmolab/blog/)
 </small>
 
 [協同產品設計實習課程網誌](blog/index.html)
-
-
     </script>
 </section>
-
-
-						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+#Week 1
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+<p align="left">
+1. 用 SciTE 將 Y:\stunnel\config 下的 stunnel.conf 開啟</p>
 
+<p align="left">
+2. 在 cmd 輸入 ipconfig /all 查詢電腦 IP</p>
+
+<p align="left">
+3. 並將 stunnel.conf 的 https 的 IP 改為電腦的 IP</p>
+
+<p align="left">
+4. 若有使用 proxy 要指定電腦的 IP 不要經過 proxy</p>
+
+<p align="left">
+5. 可從 Google Chrome 設定 (proxy 設定>LAN設定>進階)</p>
     </script>
 </section>
-
-
-						
-<section>
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+#Week 2
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+<p align="left">
+1. https://ethercalc.org/4lirnzbeh0fl 寫各組座位表</p>
 
-$$I = \int \rho R^{2} dV$$
+<p align="left">
+2. 說明分組座位程式碼</p>
+
+<p align="left">
+3. 完成 SolveSpace 四連桿機構</p>
+
+<iframe src="https://player.vimeo.com/video/206178894" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/206178894">2017-03-01_11-31-56</a> from <a href="https://vimeo.com/user26960874">蔡宗霖</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
     </script>
 </section>
-
-
-
-						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+#Week 3
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+<p align="left">
+1. 完成看影片(14-1)打出英文稿</p>
+https://40123158.github.io/2017springcd_hw/blog/Week%203.html 
+
+<p align="left">
+2. 練習在近端建立 fossil</p>
     </script>
 </section>
-
-
-
-						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+#Week 4
 
-### 導入影片 template
+<p align="left">
+1. 建立協同主機 2017springcd_bg1 : <a href="https://mde2a2.kmol.info/cdbg1">https://mde2a2.kmol.info/cdbg1</a> </p>
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p align="left">
+2. 繪製單桿機構</p>
+<iframe src="https://player.vimeo.com/video/211511217" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/211511217">20170222_113310</a> from <a href="https://vimeo.com/user26960874">蔡宗霖</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="data/onebar/onebar.html" width="800" height="480"></iframe>
     </script>
 </section>
+<section data-markdown>
+    <script type="text/template">
+#Week 5
 
+<p align="left">
+1. Fossil SCM 與 Stunnel 啟動整合</p>
 
-						
+<p align="left">
+2. SolveSpace 匯出 onebar 並在 V-rep 加入馬達</p>
+<iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/212852513">2017-04-12_10-52-31</a> from <a href="https://vimeo.com/user26960874">蔡宗霖</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+#Week 6
+
+<p align="left">
+1. 在 Onshape 及 SolveSpace 繪製出 Onebar 及 Fourbar</p>
+
+<p align="left">
+2. 將 Fourbar 匯入 V-rep 加入馬達</p>
+
+<iframe src="https://player.vimeo.com/video/210018813" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+#Week 7
+
+<p align="left">
+1. Fossil 檔案推送</p>
+
+<p align="left">
+2. V-rep 試著組合 8link, 練習 dummy 相關設定</p>
+
+<iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/212852513">2017-04-12_10-52-31</a> from <a href="https://vimeo.com/user26960874">蔡宗霖</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+# Week 8
+
+<p align="left">
+1. 小組互評: https://pygroup-ag100.rhcloud.com </p>
+
+<p align="left">
+2. 個人自評: http://mde1a2.kmol.info:8000/k96tgzh1ofbl </p>
+    </script>
 </section>
 </div>
 

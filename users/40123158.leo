@@ -28,41 +28,38 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
-<v t="yen.20170120110024.2"><vh>html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
-<v t="yen.20170120110024.4"><vh>body</vh>
-<v t="yen.20170120110024.5"><vh>reveal div</vh>
-<v t="yen.20170120110024.6"><vh>slides div</vh>
+<v t="yen.20170120110024.4" a="E"><vh>body</vh>
+<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
+<v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
 <v t="yen.20170120110024.7"><vh>封面投影片</vh>
 <v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170304121248.1"><vh>快捷鍵</vh>
-<v t="leo.20170304121248.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20170418231511.1"><vh>W1</vh>
+<v t="leo.20170418233319.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170304121232.1"><vh>20170222Week1</vh>
-<v t="leo.20170304121232.2"><vh>課堂報告1</vh>
-<v t="leo.20170304121232.3"><vh>上課內容1</vh></v>
+<v t="leo.20170418233233.1"><vh>W2</vh>
+<v t="leo.20170418233404.1"><vh>課程</vh></v>
 </v>
+<v t="leo.20170418233626.1"><vh>W3</vh>
+<v t="leo.20170418233714.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170304121240.1"><vh>20170301Week2</vh>
-<v t="leo.20170304121240.2"><vh>課堂報告1</vh>
-<v t="leo.20170304121240.3"><vh>上課內容1</vh></v>
+<v t="leo.20170418233634.1"><vh>W4</vh>
+<v t="leo.20170418233718.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170304132216.1"><vh>課堂報告2</vh>
-<v t="leo.20170304132216.2"><vh>上課內容2</vh></v>
+<v t="leo.20170418233639.1"><vh>W5</vh>
+<v t="leo.20170418233721.1"><vh>課程</vh></v>
 </v>
+<v t="leo.20170418233644.1"><vh>W6</vh>
+<v t="leo.20170418233725.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170304121220.1"><vh>各式內容引用範例</vh>
-<v t="leo.20170304121220.2"><vh>導入數學符號與方程式</vh>
-<v t="leo.20170304121220.3"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20170418233648.1"><vh>W7</vh>
+<v t="leo.20170418233728.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170304121220.4"><vh>導入縮排程式碼</vh>
-<v t="leo.20170304121220.5"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20170304121220.6"><vh>導入影片</vh>
-<v t="leo.20170304121220.7"><vh>iframe 導入影片</vh></v>
-</v>
+<v t="leo.20170418234815.1"><vh>W8</vh>
+<v t="leo.20170418234815.2"><vh>課程</vh></v>
 </v>
 </v>
 </v>
@@ -139,114 +136,6 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20170304121220.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170304121220.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170304121220.3"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20170304121220.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170304121220.5">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20170304121220.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170304121220.7">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20170304121232.1">@others
-</t>
-<t tx="leo.20170304121232.2">@others
-</t>
-<t tx="leo.20170304121232.3"></t>
-<t tx="leo.20170304121240.1">@others
-</t>
-<t tx="leo.20170304121240.2">@others
-</t>
-<t tx="leo.20170304121240.3"></t>
-<t tx="leo.20170304121248.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170304121248.2"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20170304132216.1">@others
-</t>
-<t tx="leo.20170304132216.2"></t>
 <t tx="leo.20170322123133.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -390,10 +279,10 @@ Diff...
   
   &lt;small&gt;
 - Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
-+ Created by [NFU-MDE104B-40423226](https://40423226.github.io/2017springcd_bg1/blog/)
++ Created by [NFU-MDE104B-40123158](https://40123158.github.io/2017springcd_bg1/blog/)
   &lt;/small&gt;
   
-  [協同產品設計實習課程網誌](blog/index.html)
+  [40123158 的網誌](blog/index.html)
   
   
 </t>
@@ -444,6 +333,125 @@ Diff...
 + 
 + 						
 </t>
+<t tx="leo.20170418231511.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233233.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233319.1">#Week 1
+
+&lt;p align="left"&gt;
+1. 用 SciTE 將 Y:\stunnel\config 下的 stunnel.conf 開啟&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 在 cmd 輸入 ipconfig /all 查詢電腦 IP&lt;/p&gt;
+
+&lt;p align="left"&gt;
+3. 並將 stunnel.conf 的 https 的 IP 改為電腦的 IP&lt;/p&gt;
+
+&lt;p align="left"&gt;
+4. 若有使用 proxy 要指定電腦的 IP 不要經過 proxy&lt;/p&gt;
+
+&lt;p align="left"&gt;
+5. 可從 Google Chrome 設定 (proxy 設定&gt;LAN設定&gt;進階)&lt;/p&gt;
+</t>
+<t tx="leo.20170418233404.1">#Week 2
+
+&lt;p align="left"&gt;
+1. https://ethercalc.org/4lirnzbeh0fl 寫各組座位表&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 說明分組座位程式碼&lt;/p&gt;
+
+&lt;p align="left"&gt;
+3. 完成 SolveSpace 四連桿機構&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/206178894" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/206178894"&gt;2017-03-01_11-31-56&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20170418233626.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233634.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233639.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233644.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233648.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418233714.1">#Week 3
+
+&lt;p align="left"&gt;
+1. 完成看影片(14-1)打出英文稿&lt;/p&gt;
+https://40123158.github.io/2017springcd_hw/blog/Week%203.html 
+
+&lt;p align="left"&gt;
+2. 練習在近端建立 fossil&lt;/p&gt;</t>
+<t tx="leo.20170418233718.1">#Week 4
+
+&lt;p align="left"&gt;
+1. 建立協同主機 2017springcd_bg1 : &lt;a href="https://mde2a2.kmol.info/cdbg1"&gt;https://mde2a2.kmol.info/cdbg1&lt;/a&gt; &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 繪製單桿機構&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/211511217" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/211511217"&gt;20170222_113310&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src="data/onebar/onebar.html" width="800" height="480"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170418233721.1">#Week 5
+
+&lt;p align="left"&gt;
+1. Fossil SCM 與 Stunnel 啟動整合&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. SolveSpace 匯出 onebar 並在 V-rep 加入馬達&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/212852513"&gt;2017-04-12_10-52-31&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20170418233725.1">#Week 6
+
+&lt;p align="left"&gt;
+1. 在 Onshape 及 SolveSpace 繪製出 Onebar 及 Fourbar&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 將 Fourbar 匯入 V-rep 加入馬達&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/210018813" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170418233728.1">#Week 7
+
+&lt;p align="left"&gt;
+1. Fossil 檔案推送&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. V-rep 試著組合 8link, 練習 dummy 相關設定&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/212852513"&gt;2017-04-12_10-52-31&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20170418234815.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170418234815.2"># Week 8
+
+&lt;p align="left"&gt;
+1. 小組互評: https://pygroup-ag100.rhcloud.com &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 個人自評: http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -676,23 +684,16 @@ make.start()</t>
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
+&lt;/section&gt;</t>
 <t tx="yen.20170120110024.8">## 2017Spring 協同產品設計實習
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40123158](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[協同產品設計實習課程網誌](blog/index.html)
-
-
-</t>
+[協同產品設計實習課程網誌](blog/index.html)</t>
 <t tx="yen.20170120212350.1"></t>
 <t tx="yen.20170120212354.1">@language python
 import calendar
