@@ -23,7 +23,7 @@
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170215103217.1" a="E"><vh>編輯 template</vh>
+<v t="yen.20170215103217.1"><vh>編輯 template</vh>
 <v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
@@ -58,7 +58,7 @@
 <v t="leo.20170418233648.1"><vh>W7</vh>
 <v t="leo.20170418233728.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418234815.1"><vh>W8</vh>
+<v t="leo.20170418234815.1" a="E"><vh>W8</vh>
 <v t="leo.20170418234815.2"><vh>課程</vh></v>
 </v>
 </v>
@@ -66,19 +66,21 @@
 </v>
 </v>
 </v>
-<v t="yen.20170108171733.71"><vh>@path content</vh>
+<v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="leo.20170226215021.1"><vh>@edit 20170222.md</vh></v>
 <v t="leo.20170304120513.1"><vh>@edit 20170301.md</vh></v>
 <v t="leo.20170311113011.1"><vh>@edit 20170308.md</vh></v>
 <v t="leo.20170316184218.1"><vh>@edit 20170315.md</vh></v>
 <v t="leo.20170322111300.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170412115712.1"><vh>@edit 20170329.md</vh></v>
+<v t="leo.20170419112035.1"><vh>@edit 20170412.md</vh></v>
+<v t="leo.20170419113229.1"><vh>@edit 20170419.md</vh></v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt</vh></v>
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
-<v t="yen.20170120212350.1"><vh>programs</vh>
+<v t="yen.20170120212350.1" a="E"><vh>programs</vh>
 <v t="yen.20170210153828.1"><vh>v-rep rempte api</vh>
 <v t="yen.20170210202015.1"><vh>Python remote API</vh></v>
 <v t="yen.20170210170248.1"><vh>line tracer</vh></v>
@@ -96,7 +98,7 @@
 </v>
 </v>
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
-<v t="leo.20170322123133.2"><vh>Recovered Nodes</vh>
+<v t="leo.20170322123133.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20170322123133.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20170322123133.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20170322123133.5"><vh>new:封面投影片內容</vh></v>
