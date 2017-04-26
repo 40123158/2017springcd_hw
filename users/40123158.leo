@@ -40,26 +40,29 @@
 <v t="leo.20170418231511.1"><vh>W1</vh>
 <v t="leo.20170418233319.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418233233.1"><vh>W2</vh>
+<v t="leo.20170418233233.1" a="E"><vh>W2</vh>
 <v t="leo.20170418233404.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418233626.1"><vh>W3</vh>
+<v t="leo.20170418233626.1" a="E"><vh>W3</vh>
 <v t="leo.20170418233714.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418233634.1"><vh>W4</vh>
+<v t="leo.20170418233634.1" a="E"><vh>W4</vh>
 <v t="leo.20170418233718.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418233639.1"><vh>W5</vh>
+<v t="leo.20170418233639.1" a="E"><vh>W5</vh>
 <v t="leo.20170418233721.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418233644.1"><vh>W6</vh>
+<v t="leo.20170418233644.1" a="E"><vh>W6</vh>
 <v t="leo.20170418233725.1"><vh>課程</vh></v>
 </v>
-<v t="leo.20170418233648.1"><vh>W7</vh>
+<v t="leo.20170418233648.1" a="E"><vh>W7</vh>
 <v t="leo.20170418233728.1"><vh>課程</vh></v>
 </v>
 <v t="leo.20170418234815.1" a="E"><vh>W8</vh>
 <v t="leo.20170418234815.2"><vh>課程</vh></v>
+</v>
+<v t="leo.20170426110602.1" a="E"><vh>W9</vh>
+<v t="leo.20170426110602.2"><vh>課程</vh></v>
 </v>
 </v>
 </v>
@@ -400,22 +403,25 @@ Diff...
     &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170418233714.1">#Week 3
+&lt;p align="left"&gt;
+1. 觀賞影片(14-1)
+https://player.vimeo.com/video/207239262 &lt;/p&gt;
 
 &lt;p align="left"&gt;
-1. 完成看影片(14-1)打出英文稿&lt;/p&gt;
-https://40123158.github.io/2017springcd_hw/blog/Week%203.html 
+英聽字幕稿 :
+https://40123158.github.io/2017springcd_hw/blog/Week%203.html &lt;/p&gt;
 
 &lt;p align="left"&gt;
 2. 練習在近端建立 fossil&lt;/p&gt;</t>
 <t tx="leo.20170418233718.1">#Week 4
 
 &lt;p align="left"&gt;
-1. 建立協同主機 2017springcd_bg1 : &lt;a href="https://mde2a2.kmol.info/cdbg1"&gt;https://mde2a2.kmol.info/cdbg1&lt;/a&gt; &lt;/p&gt;
+1. 建立協同主機 2017springcd_bg1 : https://mde2a2.kmol.info/cdbg1 &lt;/p&gt;
 
 &lt;p align="left"&gt;
-2. 繪製單桿機構&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/211511217" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/211511217"&gt;20170222_113310&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src="data/onebar/onebar.html" width="800" height="480"&gt;&lt;/iframe&gt;</t>
+2. 繪製單桿機構 &lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/211511217" width="560" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170418233721.1">#Week 5
 
 &lt;p align="left"&gt;
@@ -423,7 +429,9 @@ https://40123158.github.io/2017springcd_hw/blog/Week%203.html
 
 &lt;p align="left"&gt;
 2. SolveSpace 匯出 onebar 並在 V-rep 加入馬達&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/212852513"&gt;2017-04-12_10-52-31&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+
+&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 <t tx="leo.20170418233725.1">#Week 6
 
 &lt;p align="left"&gt;
@@ -441,7 +449,7 @@ https://40123158.github.io/2017springcd_hw/blog/Week%203.html
 &lt;p align="left"&gt;
 2. V-rep 試著組合 8link, 練習 dummy 相關設定&lt;/p&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/212852513"&gt;2017-04-12_10-52-31&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;iframe src="https://player.vimeo.com/video/212852513" width="640" height="331" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170418234815.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -450,10 +458,33 @@ https://40123158.github.io/2017springcd_hw/blog/Week%203.html
 <t tx="leo.20170418234815.2"># Week 8
 
 &lt;p align="left"&gt;
-1. 小組互評: https://pygroup-ag100.rhcloud.com &lt;/p&gt;
+1. 小組互評: 
+https://pygroup-ag100.rhcloud.com &lt;/p&gt;
 
 &lt;p align="left"&gt;
-2. 個人自評: http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
+2. 個人自評: 
+http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
+<t tx="leo.20170426110602.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170426110602.2"># Week 期中考
+
+&lt;p align="left"&gt;
+ 1.Fossil Server 實習查驗 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2.四連桿機構協同 Trace Point 查驗 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+3.Fourbar Walker OnShape 零件協同繪圖與組立查驗 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+4.分組協同零件展示 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+【期中】成果連結 : https://40123158.github.io/2017springcd_hw/blog/%E6%9C%9F%E4%B8%AD%E8%80%83.html&lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

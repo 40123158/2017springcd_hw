@@ -7,28 +7,26 @@
 &lt;br&gt;
 &lt;br&gt;本組 Serve 的 ip 位址 : &lt;a href="https://mde2a2.kmol.info/midterm/bg1/wcontent"&gt;https://mde2a2.kmol.info/midterm/bg1/wcontent &lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
-
-&lt;p&gt;在各組網誌中, 以子模組 (Github Submodule) 的設定, 擷取各組員倉儲中的 T 點軌跡座標檔後, 進行網際協同繪圖.&lt;/p&gt;
-
 &lt;p&gt;&lt;br&gt; 
-&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/data/midterm1.png?raw=true"&gt;
+&lt;h3&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
+&lt;p&gt;在各組網誌中, 以子模組 (Github Submodule) 的設定, 擷取各組員倉儲中的 T 點軌跡座標檔後, 進行網際協同繪圖.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/data/midterm1.png?raw=true"&gt;&lt;/p&gt;
 &lt;br&gt; 
 &lt;p&gt;Vimeo影片&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/213775843" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/213775843" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/213775843"&gt;NFU-機械設計系-協同產品設計-40123158 (二)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt; 
 &lt;p&gt;youtube影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Xig_FuGB0-c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="640" height="347" src="https://www.youtube.com/embed/Xig_FuGB0-c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;br&gt; 
 &lt;h3&gt;(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h3&gt;
-
-&lt;p&gt;請各組依照題目給予的基本尺寸規劃, 以協同方式在 OnShape 環境中完成四連桿四足行走機構, 並分別拍攝協同規劃與實際操作影片, 將影片送到 1) Youtube 2) Vimeo 以及各組的 Fossil Server。&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt; 
-&lt;img src="http://i.imgur.com/ulmpFlS.png"&gt;
+&lt;p&gt;請各組依照題目給予的基本尺寸規劃, 以協同方式在 OnShape 環境中完成四連桿四足行走機構, 
+&lt;br&gt; 
+&lt;br&gt;並分別拍攝協同規劃與實際操作影片, 將影片送到 1) Youtube 2) Vimeo 以及各組的 Fossil Server。&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://i.imgur.com/ulmpFlS.png"&gt;&lt;/p&gt;
 &lt;br&gt; 
 &lt;p&gt;Vimeo影片&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/213781620" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/213781620" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/213781620"&gt;NFU-機械設計系-協同產品設計-40123158 (三)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt; 
 &lt;p&gt;Vimeo影片 - 機構作動動畫&lt;/p&gt;
@@ -36,7 +34,15 @@
 &lt;p&gt;&lt;a href="https://vimeo.com/214769406"&gt;NFU-機械設計系-協同產品設計-40123158 (三 - 機構作動動畫)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 &lt;br&gt; 
 &lt;p&gt;youtube影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tcW-I39wq1k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-04/12 Week 8</title><link href="./Week%208.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-04-12:./Week 8.html</id><summary type="html">&lt;ol&gt;
+&lt;iframe width="640" height="347" src="https://www.youtube.com/embed/tcW-I39wq1k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;p&gt;youtube影片 - 機構作動動畫&lt;/p&gt;
+&lt;iframe width="640" height="347" src="https://www.youtube.com/embed/6-aSEW_Woyg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;h3&gt;(四) 分組協同零件展示&lt;/h3&gt;
+&lt;p&gt;將以所指定的 Ethercalc 即時表單, 取各學員的期中自評成績。
+&lt;br&gt;
+&lt;br&gt;將各組完成的四足行走機構, 轉為 STL 格式, 利用下列 viewer, 將機構展示在各組的網誌中。&lt;/p&gt;&lt;/p&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-04/12 Week 8</title><link href="./Week%208.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-04-12:./Week 8.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;小組互評:&lt;a href="https://pygroup-ag100.rhcloud.com"&gt;https://pygroup-ag100.rhcloud.com &lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
