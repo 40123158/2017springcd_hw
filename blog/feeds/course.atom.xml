@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-19T11:00:00+08:00</updated><entry><title>2017-04/19 期中考</title><link href="./%E6%9C%9F%E4%B8%AD%E8%80%83.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-04-19:./期中考.html</id><summary type="html">&lt;h3&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-19T11:00:00+08:00</updated><entry><title>2017-04/19 期中考</title><link href="./%E6%9C%9F%E4%B8%AD%E8%80%83.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-04-19:./期中考.html</id><summary type="html">&lt;h3&gt;(一) Fossil Server 實習查驗&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/data/midterm1.png?raw=true"&gt;
+&lt;p&gt;各組利用電腦輔助設計室中的電腦, 重新建立一台以 https 為連結協定的 Fossil Server。
+&lt;br&gt;
+&lt;br&gt;而各組員分別在 Wiki 中以 [學號] 期中學習心得 為 Wiki 頁面標題, 概述上課至今的心得與自評成績。
+&lt;br&gt;
+&lt;br&gt;本組 Serve 的 ip 位址 : &lt;a href="https://mde2a2.kmol.info/midterm/bg1/wcontent"&gt;https://mde2a2.kmol.info/midterm/bg1/wcontent &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;(二) 四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
+
+&lt;p&gt;在各組網誌中, 以子模組 (Github Submodule) 的設定, 擷取各組員倉儲中的 T 點軌跡座標檔後, 進行網際協同繪圖.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt; 
+&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/data/midterm1.png?raw=true"&gt;
+&lt;br&gt; 
 &lt;p&gt;Vimeo影片&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/213775843" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/213775843"&gt;NFU-機械設計系-協同產品設計-40123158 (二)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213775843"&gt;NFU-機械設計系-協同產品設計-40123158 (二)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt; 
 &lt;p&gt;youtube影片&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Xig_FuGB0-c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Xig_FuGB0-c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;(三) Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h3&gt;
 
+&lt;p&gt;請各組依照題目給予的基本尺寸規劃, 以協同方式在 OnShape 環境中完成四連桿四足行走機構, 並分別拍攝協同規劃與實際操作影片, 將影片送到 1) Youtube 2) Vimeo 以及各組的 Fossil Server。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt; 
+&lt;img src="http://i.imgur.com/ulmpFlS.png"&gt;
+&lt;br&gt; 
 &lt;p&gt;Vimeo影片&lt;/p&gt;
-
 &lt;iframe src="https://player.vimeo.com/video/213781620" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
 &lt;p&gt;&lt;a href="https://vimeo.com/213781620"&gt;NFU-機械設計系-協同產品設計-40123158 (三)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
+&lt;br&gt; 
+&lt;p&gt;Vimeo影片 - 機構作動動畫&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/214769406" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214769406"&gt;NFU-機械設計系-協同產品設計-40123158 (三 - 機構作動動畫)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt; 
 &lt;p&gt;youtube影片&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tcW-I39wq1k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-04/12 Week 8</title><link href="./Week%208.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-04-12:./Week 8.html</id><summary type="html">&lt;ol&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tcW-I39wq1k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-04/12 Week 8</title><link href="./Week%208.html" rel="alternate"></link><published>2017-04-12T11:00:00+08:00</published><updated>2017-04-12T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-04-12:./Week 8.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;小組互評:&lt;a href="https://pygroup-ag100.rhcloud.com"&gt;https://pygroup-ag100.rhcloud.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;小組互評:&lt;a href="https://pygroup-ag100.rhcloud.com"&gt;https://pygroup-ag100.rhcloud.com &lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;個人自評:&lt;a href="http://mde1a2.kmol.info:8000/k96tgzh1ofbl "&gt;http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/a&gt;&lt;/p&gt;
