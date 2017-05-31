@@ -278,6 +278,30 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
+                <h2><a href="../Week 2.html">2017-03/01 Week 2</a></h2>
+                <div class="summary"><p>利用 Solvespace 畫出簡單的四連桿機構, 觀察該機構的運動方式, 也可以匯出到 V-rep 進行動態模擬</p>
+
+<iframe src="https://player.vimeo.com/video/206178894" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/206178894">2017-03-01_11-31-56</a> from <a href="https://vimeo.com/user26960874">蔡宗霖</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<h3>分組座位原始碼</h3>
+
+<pre class="brush: python">
+#import os
+adata = open("w2b_cadlab.txt", encoding="utf-8").read()
+#讀取w2b_cadlab.txt 檔案,讓裡面的內容成為資料, 因為檔案裡有中文, 所以設定encoding 使用utf-8 的編驛碼
+rdata = open("w2b_registered.txt", encoding="utf-8").read().splitlines()
+#print(adata)
+#用print 先檢查資料是否是我們需要的
+alist = adata.splitlines()
+#利用splitlines 的方法把資料隔開, 就可以得到一個特定的數列
+#print(alist ...</pre>
+                    <a class="btn btn-default btn-xs" href="../Week 2.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="../Week 1.html">2017-02/22 Week 1</a></h2>
                 <div class="summary"><h3>修改 stunnel.conf 的 IP 設定</h3>
 
@@ -311,6 +335,11 @@ init_mathjax();
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="../Week15.html">
+                            2017-05/31 Week15
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="../Week13.html">
                             2017-05/17 Week13
                         </a>
@@ -328,11 +357,6 @@ init_mathjax();
                     <li class="list-group-item">
                         <a href="../期中考.html">
                             2017-04/19 期中考
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../Week 8.html">
-                            2017-04/12 Week 8
                         </a>
                     </li>
                 </ul>
