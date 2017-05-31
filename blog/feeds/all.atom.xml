@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T11:00:00+08:00</updated><entry><title>2017-05/17 Week13</title><link href="./Week13.html" rel="alternate"></link><published>2017-05-17T11:00:00+08:00</published><updated>2017-05-17T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-05-17:./Week13.html</id><summary type="html"></summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-05/10 Week12</title><link href="./Week12.html" rel="alternate"></link><published>2017-05-10T11:00:00+08:00</published><updated>2017-05-10T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-05-10:./Week12.html</id><summary type="html"></summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-05/03 Week11</title><link href="./Week11.html" rel="alternate"></link><published>2017-05-03T11:00:00+08:00</published><updated>2017-05-03T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-05-03:./Week11.html</id><summary type="html">&lt;h3&gt;正齒輪繪製&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T11:00:00+08:00</updated><entry><title>2017-05/17 Week13</title><link href="./Week13.html" rel="alternate"></link><published>2017-05-17T11:00:00+08:00</published><updated>2017-05-17T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-05-17:./Week13.html</id><summary type="html">&lt;h3&gt;正齒輪繪製&lt;/h3&gt;
+
+&lt;p&gt;利用onshape來繪製 " 齒輪輪系 " 並 "轉動 "
+&lt;br&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BD%89%E5%8B%95.PNG?raw=true"&gt;&lt;/p&gt;
+&lt;br&gt; 
+&lt;p&gt;Vimeo影片&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/219617290" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/219617290"&gt;國立虎尾科技大學-機械設計系-協同產品設計實習-40123158  (正齒輪系測試)&lt;/a&gt; from &lt;a href="https://vimeo.com/user26960874"&gt;蔡宗霖&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt; 
+&lt;p&gt;youtube影片&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Fh1IyrA0oOg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;br&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-05/10 Week12</title><link href="./Week12.html" rel="alternate"></link><published>2017-05-10T11:00:00+08:00</published><updated>2017-05-10T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-05-10:./Week12.html</id><summary type="html">&lt;h3&gt;正齒輪繪製&lt;/h3&gt;
+
+&lt;p&gt;利用onshape來繪製 " 齒輪輪系 "
+&lt;br&gt; 
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BC%AA%E7%B3%BB.PNG?raw=true"&gt;&lt;/p&gt;
+&lt;br&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>2017-05/03 Week11</title><link href="./Week11.html" rel="alternate"></link><published>2017-05-03T11:00:00+08:00</published><updated>2017-05-03T11:00:00+08:00</updated><author><name>40123158</name></author><id>tag:,2017-05-03:./Week11.html</id><summary type="html">&lt;h3&gt;正齒輪繪製&lt;/h3&gt;
 
 &lt;p&gt;利用onshape來繪製 " 漸近線正齒輪 "
 &lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/received_1364718136946445.png?raw=true"&gt;&lt;/p&gt;
