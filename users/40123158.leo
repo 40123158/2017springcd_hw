@@ -61,8 +61,17 @@
 <v t="leo.20170418234815.1" a="E"><vh>W8</vh>
 <v t="leo.20170418234815.2"><vh>課程</vh></v>
 </v>
-<v t="leo.20170426110602.1" a="E"><vh>W9</vh>
+<v t="leo.20170426110602.1"><vh>W9</vh>
 <v t="leo.20170426110602.2"><vh>課程</vh></v>
+</v>
+<v t="leo.20170517112653.1" a="E"><vh>W11</vh>
+<v t="leo.20170517112653.2"><vh>課程</vh></v>
+</v>
+<v t="leo.20170517112658.1" a="E"><vh>W12</vh>
+<v t="leo.20170517112658.2"><vh>課程</vh></v>
+</v>
+<v t="leo.20170517112702.1" a="E"><vh>W13</vh>
+<v t="leo.20170517112702.2"><vh>課程</vh></v>
 </v>
 </v>
 </v>
@@ -78,6 +87,9 @@
 <v t="leo.20170412115712.1"><vh>@edit 20170329.md</vh></v>
 <v t="leo.20170419112035.1"><vh>@edit 20170412.md</vh></v>
 <v t="leo.20170419113229.1"><vh>@edit 20170419.md</vh></v>
+<v t="leo.20170517111841.1"><vh>@edit 20170503.md</vh></v>
+<v t="leo.20170517112242.1"><vh>@edit 20170510.md</vh></v>
+<v t="leo.20170517112327.1"><vh>@edit 20170517.md</vh></v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt</vh></v>
 </v>
@@ -485,6 +497,27 @@ http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
 
 &lt;p align="left"&gt;
 【期中】成果連結 : https://40123158.github.io/2017springcd_hw/blog/%E6%9C%9F%E4%B8%AD%E8%80%83.html&lt;/p&gt;</t>
+<t tx="leo.20170517112653.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170517112653.2"># Week 11
+</t>
+<t tx="leo.20170517112658.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170517112658.2"># Week 12
+</t>
+<t tx="leo.20170517112702.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170517112702.2"># Week 13
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
