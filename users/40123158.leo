@@ -540,7 +540,9 @@ http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
 
 &lt;p align="left"&gt;
 1. 利用漸開線原理, 以 Brython 繪製單一正齒輪廓&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BD%89%E5%8B%95.PNG?raw=true"&gt;&lt;/p&gt;</t>
+&lt;p align="left"&gt;
+2. 完成後, 請在正齒輪中央寫上自己的學號&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E6%93%B7%E5%8F%96.PNG?raw=true"&gt;&lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
