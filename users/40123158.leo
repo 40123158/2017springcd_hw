@@ -73,6 +73,9 @@
 <v t="leo.20170517112702.1" a="E"><vh>W13</vh>
 <v t="leo.20170517112702.2"><vh>課程</vh></v>
 </v>
+<v t="leo.20170607090224.1" a="E"><vh>W15</vh>
+<v t="leo.20170607090224.2"><vh>課程</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -504,21 +507,40 @@ http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
     &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170517112653.2"># Week 11
-</t>
+
+&lt;p align="left"&gt;
+1. 利用onshape來繪製 " 漸近線正齒輪 "&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/received_1364718130279779.png?raw=true"&gt;&lt;/p&gt;</t>
 <t tx="leo.20170517112658.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170517112658.2"># Week 12
-</t>
+
+&lt;p align="left"&gt;
+1. 利用onshape來繪製 " 齒輪輪系 "&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BC%AA%E7%B3%BB.PNG?raw=true"&gt;&lt;/p&gt;</t>
 <t tx="leo.20170517112702.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170517112702.2"># Week 13
-</t>
+
+&lt;p align="left"&gt;
+1. 利用onshape來繪製 " 齒輪輪系 " 並 "轉動 "&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BD%89%E5%8B%95.PNG?raw=true"&gt;&lt;/p&gt;</t>
+<t tx="leo.20170607090224.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170607090224.2"># Week 15
+
+&lt;p align="left"&gt;
+1. 利用漸開線原理, 以 Brython 繪製單一正齒輪廓&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BD%89%E5%8B%95.PNG?raw=true"&gt;&lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
