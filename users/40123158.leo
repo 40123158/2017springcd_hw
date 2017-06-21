@@ -70,11 +70,17 @@
 <v t="leo.20170517112658.1" a="E"><vh>W12</vh>
 <v t="leo.20170517112658.2"><vh>課程</vh></v>
 </v>
-<v t="leo.20170517112702.1" a="E"><vh>W13</vh>
+<v t="leo.20170517112702.1"><vh>W13</vh>
 <v t="leo.20170517112702.2"><vh>課程</vh></v>
 </v>
-<v t="leo.20170607090224.1" a="E"><vh>W15</vh>
+<v t="leo.20170621084046.1" a="E"><vh>W14</vh>
+<v t="leo.20170621084046.2"><vh>課程</vh></v>
+</v>
+<v t="leo.20170607090224.1"><vh>W15</vh>
 <v t="leo.20170607090224.2"><vh>課程</vh></v>
+</v>
+<v t="leo.20170621082859.1" a="E"><vh>W17</vh>
+<v t="leo.20170621082859.2"><vh>課程</vh></v>
 </v>
 </v>
 </v>
@@ -530,7 +536,9 @@ http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
 <t tx="leo.20170517112702.2"># Week 13
 
 &lt;p align="left"&gt;
-1. 利用onshape來繪製 " 齒輪輪系 " 並 "轉動 "&lt;/p&gt;
+1. 繪製八連桿行走機構&lt;/p&gt;
+&lt;p align="left"&gt;
+2. 利用onshape來繪製 " 齒輪輪系 " 並 "轉動 "&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E8%BD%89%E5%8B%95.PNG?raw=true"&gt;&lt;/p&gt;</t>
 <t tx="leo.20170607090224.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -544,6 +552,30 @@ http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
 &lt;p align="left"&gt;
 2. 完成後, 請在正齒輪中央寫上自己的學號&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/photo/%E6%93%B7%E5%8F%96.PNG?raw=true"&gt;&lt;/p&gt;</t>
+<t tx="leo.20170621082859.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170621082859.2"># Week 17
+
+&lt;p align="left"&gt;
+1.各組員倉儲中的 Github 檔案推送&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中
+&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/40123158/2017springcd_hw/blob/gh-pages/W17/40123158.PNG?raw=true"&gt;&lt;/p&gt;</t>
+<t tx="leo.20170621084046.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170621084046.2"># Week 14
+
+&lt;p align="left"&gt;
+ 1. 純 IPv6 網路的主機&lt;/p&gt;
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
